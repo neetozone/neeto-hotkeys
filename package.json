@@ -42,7 +42,7 @@
   "homepage": "https://github.com/bigbinary/neeto-hotkeys#readme",
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.22.6",
+    "@babel/core": "7.29.6",
     "@babel/eslint-parser": "7.22.6",
     "@babel/plugin-transform-runtime": "7.22.6",
     "@babel/preset-env": "7.22.6",
