@@ -1,0 +1,29 @@
+version: v1.0
+
+fail_fast: true
+
+plan: standard-2
+
+global_job_config:
+  prologue:
+    commands:
+      - neetoci-version node 22.13
+      - checkout
+      - cache restore
+      - yarn install --frozen-lockfile
+      - cache store
+
+blocks:
+  - name: "Tests"
+    dependencies: []
+    task:
+      jobs:
+        - name: Build and run tests
+          commands:
+            - yarn build
+            - yarn test
+
+triggers:
+  - event: branch
+    branch_name: main
+  - event: pull_request
