@@ -10,7 +10,8 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "build": "NODE_ENV=production rollup -c"
+    "build": "NODE_ENV=production rollup -c",
+    "test": "node --test tests/*.test.js"
   },
   "types": "index.d.ts",
   "files": [
