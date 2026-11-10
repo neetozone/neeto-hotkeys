@@ -2,6 +2,8 @@ version: v1.0
 
 fail_fast: true
 
+reuse_landed_pull_request_run: true
+
 plan: standard-2
 
 global_job_config:
