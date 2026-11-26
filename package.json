@@ -43,7 +43,7 @@
   "homepage": "https://github.com/bigbinary/neeto-hotkeys#readme",
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.22.6",
+    "@babel/core": "7.29.6",
     "@babel/eslint-parser": "7.22.6",
     "@babel/plugin-transform-runtime": "7.22.6",
     "@babel/preset-env": "7.22.6",
@@ -72,7 +72,7 @@
     "eslint-plugin-sonarjs": "0.23.0",
     "eslint-plugin-unused-imports": "2.0.0",
     "eslint-plugin-xss": "0.1.12",
-    "glob": "^10.3.10",
+    "glob": "^14.0.2",
     "husky": "^8.0.0",
     "lint-staged": "13.2.3",
     "mousetrap": "^1.6.5",
